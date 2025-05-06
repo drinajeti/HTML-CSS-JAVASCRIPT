@@ -1,0 +1,54 @@
+body {
+    background-color: coral;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+h1 {
+    margin: 100px;
+}
+
+/* div {
+    height: 150px;
+    width: 100px;
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin: 100px 50px 10px 5px;
+    padding: 20px 50px;
+} */
+
+div {
+    margin: 100px;
+    padding: 50px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(24, 179, 32);
+}
+
+p {
+    /* color: red;
+    color: rgb(0,0,255); */
+    color: #000123;
+}
+
