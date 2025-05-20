@@ -1,0 +1,70 @@
+div#static {
+    position: static;
+    border: 3px solid green;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+div#relative {
+    position: relative;
+    border: 3px solid green;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 400px;
+    top: 250px;
+}
+
+div#fixed {
+    position: fixed;
+    border: 3px solid green;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 500px;
+    top: 100px;
+}
+
+div#parent {
+    border: 3px solid green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+div#absolute {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    left: 100px;
+    top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    background-color: cadetblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+li a:hover:not(.active){
+    background-color: black;
+}
+
+.active {
+    background-color: green;
+}
